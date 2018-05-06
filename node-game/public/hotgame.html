@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
+    <meta http-equiv="x-ua-compatible" content="IE=edge"/>
+    <title>hotgame</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/head.css"/>
+    <link rel="stylesheet" href="css/hotgame.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div id="header">
+</div>
+<div id="drop" class="fade"></div>
+<div class="modal">
+    <div class="modal-dialog">
+    </div>
+</div>
+<div id="bghotgame">
+    <div class="container">
+        <div class="row">
+            <h1 class="col-sm-4 col-sm-offset-4 col-xs-12 top animated bounceInDown">TOPTOP手游中心</h1>
+        </div>
+        <div class="row">
+            <h1 class="col-sm-8 col-sm-offset-2 col-xs-12 bot animated flipInY">你的第一选择</h1>
+        </div>
+        <div id="content" class="row">
+            <div class="col-xs-12">
+                    <div class="input-group">
+                        <input type="text" maxlength="20" class="form-control" id="searchIn" placeholder="热门搜索...">
+                        <div id='search' class="input-group-addon btn btn-danger">搜索</div>
+                        <ul id="suggest">
+                        </ul>
+                    </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-1 col-xs-3 gametitle gametype">游戏类型：</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-1 col-xs-3 gametitle gameterrace">游戏平台：</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-1 col-xs-3 gametitle gameplay">游戏玩法：</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-1 col-xs-3 gametitle gamesubject">游戏题材：</div>
+            </div>
+            <i class="rt ith glyphicon glyphicon-th" title="网格布局"></i>
+            <i class="rt ithlist glyphicon glyphicon-th-list" title="线性布局"></i>
+            <hr/>
+            <div class="row th-list">
+                <ul class="media-list">
+                </ul>
+            </div>
+            <div class="row th">
+            </div>
+            <nav>
+                <ul class="pagination">
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+<div class="elevator" id="elevator">
+    <a href="#" class="glyphicon glyphicon-arrow-up"></a>
+</div>
+<div class="footer" id="footer">
+</div>
+<script src="js/jquery-3.0.0.js"></script>
+<script src="js/head.js"></script>
+<script src="js/hotgame.js"></script>
+</body>
+</html>
