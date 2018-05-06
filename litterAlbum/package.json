@@ -7,7 +7,8 @@
     "ejs": "^2.3.4",
     "express": "^4.13.3",
     "formidable": "^1.0.17",
-    "silly-datetime": "^0.1.0"
+    "silly-datetime": "^0.1.0",
+    "prd":"pm2 start app.js"
   },
   "devDependencies": {},
   "scripts": {
